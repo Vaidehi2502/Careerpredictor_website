@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Job Skill Filter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    input {
+      width: 100%;
+      font-size: 1.1em;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    li {
+      background: #e0f0ff;
+      margin-bottom: 8px;
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Find Jobs by Skill</h1>
+  <input type="text" id="skillInput" placeholder="Enter a skill, e.g. Python" />
+  <ul id="jobList"></ul>
+
+  <!-- ✅ Correct: Load script after HTML content -->
+  <script src="script.js"></script>
+</body>
+</html>
